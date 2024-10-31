@@ -16,7 +16,7 @@ resources:
        - master
 
 pool:
-  vmImage: default
+  name: default
 
 steps:
 - task: AzureResourceManagerTemplateDeployment@3
